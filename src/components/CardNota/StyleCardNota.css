@@ -1,0 +1,31 @@
+.card-nota h3 {
+  color: indigo;
+  margin-left: 1vw;
+}
+
+.card-nota p{
+  margin-left: 2vw;
+}
+
+.card-nota {
+  padding: 0;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.219);
+  margin-top: 5vh;
+  text-decoration: none;
+  margin-right: 1vw;
+  border-radius: 10px;
+  border: 1px solid rgba(76, 0, 130, 0.431);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card-container{
+  position: absolute;
+  width: 40vw;
+  right: 5%;
+  top: 9rem;
+}
