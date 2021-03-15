@@ -6,18 +6,16 @@ import "./CardNota/StyleCardNota.css";
 class ListaNotas extends Component {
   render() {
     return (
-      <section className="card-container"> 
+      <section className="card-container">
         <ul>
-          {Array.of("Trabalho", "Trabalho", "Estudos").map(
-            (categoria, index) => {
-              return (
-                <li key={index}>
-                  <p> </p>
-                  <CardNota />
-                </li>
-              );
-            }
-          )}
+          {this.props.notas.map((nota, index) => {
+            return (
+              <li key={index}>
+                <p> </p>
+                <CardNota titulo={nota.titulo} texto={nota.texto} />
+              </li>
+            );
+          })}
         </ul>
       </section>
     );
