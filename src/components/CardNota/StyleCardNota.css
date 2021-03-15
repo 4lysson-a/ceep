@@ -3,8 +3,16 @@
   margin-left: 1vw;
 }
 
-.card-nota p{
+.card-nota p {
   margin-left: 2vw;
+  margin-right: 2vw;
+  justify-content: baseline;
+  word-wrap: break-word;
+}
+
+.card-container {
+  height: 70%;
+  overflow-y: scroll;
 }
 
 .card-nota {
@@ -23,9 +31,37 @@ ul {
   list-style-type: none;
 }
 
-.card-container{
+.card-container {
   position: absolute;
   width: 40vw;
   right: 5%;
   top: 9rem;
+}
+
+
+
+
+
+
+/* Custom scrollbar */
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 0, 184);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: indigo;
 }
