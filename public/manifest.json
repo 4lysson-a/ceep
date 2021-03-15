@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ceep",
+  "name": "Ceep A simple note app",
   "icons": [
     {
       "src": "favicon.ico",
