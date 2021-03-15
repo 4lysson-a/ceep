@@ -14,3 +14,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.app-title {
+  margin-left: 2vw;
+}
+
+.app-title span {
+  margin: 0;
+  margin-bottom: 2vh;
+  font-size: 5rem;
+  margin-right: 1vw;
+}
+
+.slogan {
+  font-size: 1.3rem;
+  position: relative;
+  left: 2.5vw;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.479);
+  padding: 0;
+}
+
+.c {
+  animation-name: titulo;
+  animation-duration: 4s;
+  animation-delay: 0;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-delay: 0.5s;
+  animation-name: titulo;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.e2 {
+  animation-delay: 1s;
+  animation-name: titulo;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.p {
+  margin: 0px;
+  animation-delay: 1.5s;
+  animation-name: titulo;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+  0% {
+    color: black;
+  }
+  50% {
+    color: indigo;
+  }
+  100% {
+    color: rgb(32, 0, 54);
+  }
+}
