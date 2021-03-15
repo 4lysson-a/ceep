@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../app.css";
+import "../index.css";
 
 class Titulo extends Component {
   render() {
