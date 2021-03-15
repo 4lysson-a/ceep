@@ -3,7 +3,7 @@ import ListaNotas from "./components/ListaNotas";
 import Titulo from "./components/Titulo";
 import FormularioCad from "./components/FormularioCad";
 
-import "./app.css";
+import "./index.css";
 
 class App extends Component {
   constructor() {
