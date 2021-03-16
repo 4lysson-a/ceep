@@ -1,4 +1,5 @@
-## !["Screenshot"](/src/img/icon.png) Ceep - Anotações Simplicficadas ;) 
+!["logo"](/src/img/icon.png =200x200) 
+## Ceep - Anotações Simplicficadas ;) 
 
 
 !["Screenshot"](/src/img/screeshot.png)
