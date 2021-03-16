@@ -9,6 +9,7 @@ class CardNota extends Component {
   render() {
     return (
       <section className="card-nota">
+        <h4 className="categoria">{this.props.categoria}</h4>
         <img
           className="delete-icon"
           src={Delete}
