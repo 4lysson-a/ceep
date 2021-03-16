@@ -1,6 +1,8 @@
 .card-nota h3 {
   color: indigo;
   margin-left: 1vw;
+  word-wrap: break-word;
+  margin-right: 3vw;
 }
 
 .card-nota p {
@@ -38,13 +40,21 @@ ul {
   top: 9rem;
 }
 
+.delete-icon{
+  position: absolute;
+  right: 0;
+  margin-right: 2vw;
+  margin-top: 1vw;
+  cursor: pointer;
 
+}
 
-
-
+.delete-icon:hover{
+  background-color: rgba(76, 0, 130, 0.226);
+  border-radius: 100px;
+}
 
 /* Custom scrollbar */
-
 
 /* width */
 ::-webkit-scrollbar {
