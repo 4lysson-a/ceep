@@ -1,6 +1,11 @@
-!["logo"](/src/img/icon.png =200x200) 
+<img src="./src/img/icon.png" width="200">
+
 ## Ceep - Anotações Simplicficadas ;) 
 
+<br/>
+<br/>
+<br/>
+<br/>
 
 !["Screenshot"](/src/img/screeshot.png)
 
