@@ -1,10 +1,9 @@
-<center>
+<div align="center">
 
 <img src="./src/img/icon.png" width="200">
 
-
-## Ceep - Anotações Simplicficadas ;) 
-</center>
+<h1>Ceep <br> Anotações simplificadas ;)</h1> 
+</div>
 
 <br/>
 <br/>
