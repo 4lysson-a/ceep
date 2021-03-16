@@ -1,5 +1,5 @@
-# Ceep
-## A simple note app
+!["Screenshot"](/src/img/icon.png)
+## Ceep - Anotações Simplicficadas ;) 
 
 !["Screenshot"](/src/img/screeshot.png)
 
