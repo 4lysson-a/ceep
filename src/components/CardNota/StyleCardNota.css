@@ -2,7 +2,7 @@
   color: indigo;
   margin-left: 1vw;
   word-wrap: break-word;
-  margin-right: 3vw;
+  margin-right: 10vw;
 }
 
 .card-nota p {
@@ -25,6 +25,7 @@
   margin-right: 1vw;
   border-radius: 10px;
   border: 1px solid rgba(76, 0, 130, 0.431);
+  min-height: 50px;
 }
 
 ul {
@@ -47,6 +48,15 @@ ul {
   margin-top: 1vw;
   cursor: pointer;
 
+}
+
+.categoria{
+  color: rgba(0, 0, 0, 0.685);
+  margin-left: 2vw;
+  position: absolute;
+  right: 0;
+  margin-right: 5vw;
+  margin-top: 1.3vw;
 }
 
 .delete-icon:hover{
