@@ -10,7 +10,9 @@
 <br/>
 <br/>
 
-!["Screenshot"](/src/img/screeshot.png)
+!["Screenshot"](/src/img/screenshot-01.png)
+
+!["Screenshot-2"](/src/img/screenshot-02.png)
 
 
 # Getting Started 
