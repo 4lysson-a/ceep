@@ -1,0 +1,96 @@
+.adicionar-button {
+  position: absolute;
+  right: 0;
+  margin: 2vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid indigo;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.adicionar-button:hover {
+  background: indigo;
+  color: #fff;
+}
+
+.modal {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transition: 0.4s;
+  /* background: rgb(27, 26, 26); */
+  background: rgb(99, 0, 170);
+  width: 600px;
+  height: 300px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  border: none;
+  border-radius: 100px;
+  padding: 5px 8px 5px 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #fff;
+  outline: none;
+  background: rgb(241, 81, 81);
+}
+
+.close-button:hover {
+  background: rgb(156, 48, 48);
+}
+
+.input-categoria {
+  width: 70%;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2vw;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.input-categoria::placeholder{
+  color: #fff;
+  opacity: 1;
+}
+
+.lista-container {
+  position: absolute;
+  top: 30%;
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  grid-gap: 10px;
+  margin-left: 1vw;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+  height: 60%;
+  width: 90%;
+}
+
+.lista-elemento {
+  color: #fff;
+  margin-left: 2vw;
+  word-wrap: break-word;
+}
+
