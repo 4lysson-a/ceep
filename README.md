@@ -1,6 +1,10 @@
+<center>
+
 <img src="./src/img/icon.png" width="200">
 
+
 ## Ceep - Anotações Simplicficadas ;) 
+</center>
 
 <br/>
 <br/>
