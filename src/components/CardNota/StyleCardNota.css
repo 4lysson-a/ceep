@@ -10,6 +10,13 @@
   margin-right: 2vw;
   justify-content: baseline;
   word-wrap: break-word;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.card-nota p::-webkit-scrollbar {
+  width: 3px;
+  margin: 1rem;
 }
 
 .card-container {
@@ -36,21 +43,21 @@ ul {
 
 .card-container {
   position: absolute;
-  width: 40vw;
+  width: 42vw;
   right: 5%;
   top: 9rem;
+  margin-left: 2rem;
 }
 
-.delete-icon{
+.delete-icon {
   position: absolute;
   right: 0;
   margin-right: 2vw;
   margin-top: 1vw;
   cursor: pointer;
-
 }
 
-.categoria{
+.categoria {
   color: rgba(0, 0, 0, 0.685);
   margin-left: 2vw;
   position: absolute;
@@ -59,29 +66,7 @@ ul {
   margin-top: 1.3vw;
 }
 
-.delete-icon:hover{
+.delete-icon:hover {
   background-color: rgba(76, 0, 130, 0.226);
   border-radius: 100px;
-}
-
-/* Custom scrollbar */
-
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(107, 0, 184);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: indigo;
 }
