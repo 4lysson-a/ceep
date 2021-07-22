@@ -28,7 +28,7 @@ jobs:
         run: git checkout
 
       - name: Criando branch de build
-        run: git branch -c main build
+        run: git branch -c master build
       
       - name: Checkout branch build
         run: git checkout build
