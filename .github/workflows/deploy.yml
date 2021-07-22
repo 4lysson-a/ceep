@@ -1,0 +1,58 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: configurando global email
+        run: git config --global user.email "4ly.alcantara@gmail.com"
+      
+      - name: config global user name
+        run: git config --global user.name "4lysson-a"
+      
+      - name: Verificando branch de build
+        run: git checkout
+
+      - name: Criando branch de build
+        run: git branch -c main build
+      
+      - name: Checkout branch build
+        run: git checkout build
+        
+      - name: Puxando alterações antigas
+        run: git pull
+        
+      - name: Rodando comando para instalar dependencias
+        run: npm install
+        
+      - name: Build da aplicação
+        run: npm run build
+        
+      - name: removendo todos os arquivos
+        run: sudo rm -rf *[!"dist"]*
+        
+      - name: movendo de dist pra fora
+        run: sudo mv dist/* ./ 
+        
+      - name: adicionando tudo
+        run: git add *
+        
+      - name: Comitando alterações na branch nova
+        run: git commit -m "Olha que commit lindo <3"
+        
+      - name: Pushing build
+        run: git push -u origin build
