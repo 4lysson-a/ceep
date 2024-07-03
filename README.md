@@ -1,3 +1,8 @@
+> [!WARNING]  
+> This is an old project, made for study purposes only. Because of this, it may contain several inconsistencies in its code base, or broken things like links and images.
+
+---
+
 <div align="center">
 
 <img src="./src/img/icon.png" width="200">
